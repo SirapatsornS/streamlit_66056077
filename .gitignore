@@ -77,6 +77,6 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-/stl_app/02_persistence_data/app_ex.py
-/stl_app/03_penguin_data/app_ex1.py
-/stl_app/03_penguin_data/app_ex2.py
+/stl_app/pages/02_persistence_data/app_ex.py
+/stl_app/pages/03_penguin_data/app_ex1.py
+/stl_app/pages/03_penguin_data/app_ex2.py
