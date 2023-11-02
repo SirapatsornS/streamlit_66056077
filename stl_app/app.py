@@ -7,7 +7,7 @@ from st_pages import Page, show_pages, add_page_title
 
 show_pages([
     Page("pages/05_iris_data/app.py", "IRIS Data"),
-    Page("pages/06_iris_ml/app_ml.py", "IRIS ML"),
+    #Page("pages/06_iris_ml/app_ml.py", "IRIS ML"),
     Page("pages/06_iris_ml/app_st.py", "IRIS ST")
 ])
 
