@@ -15,8 +15,8 @@ st.write("This app uses 6 inputs to predict the Variety of Iris using "
 iris_file = st.file_uploader('Upload your own IRIS data')
 
 if iris_file is None:
-    rf_pickle = open('random_forest_iris.pickle', 'rb')
-    map_pickle = open('output_iris.pickle', 'rb')
+    rf_pickle = open('pages/06_iris_ml/random_forest_iris.pickle', 'rb')
+    map_pickle = open('pages/06_iris_ml/output_iris.pickle', 'rb')
 
     rfc = pickle.load(rf_pickle)
     unique_iris_mapping = pickle.load(map_pickle)

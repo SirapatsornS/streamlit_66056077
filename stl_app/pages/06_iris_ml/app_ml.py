@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 
 import pickle
 
-iris_df = pd.read_csv('iris.csv')
+iris_df = pd.read_csv('pages/06_iris_ml/iris.csv')
 iris_df.dropna(inplace=True)
 output = iris_df['variety']
 features = iris_df[['sepal.length',
